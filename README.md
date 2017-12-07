@@ -58,7 +58,8 @@ apt install python3-lxml
 
 ### 3. 修改邮箱和密码
 
-```修改OneProvider.py，your@email为登录邮箱，your@password为登录密码```
+修改OneProvider.py，your@email为登录邮箱，your@password为登录密码
+
 
 ### 4. 开动了
 
