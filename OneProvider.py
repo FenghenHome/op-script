@@ -113,9 +113,9 @@ def re_create(csrf_token, vm_id, flag):
         "plan": "Plan 01",
         "csrf_token": csrf_token,
         "vm_id": vm_id,
-        "location": 14,
-        "os": "linux-centos-7.1503.01-x86_64-minimal-gen2-v1",
-        "hostname": "cat.neko",
+        "location": 13,
+        "os": "linux-ubuntu-14.04-server-x86_64-min-gen2-v1",
+        "hostname": "ifenghen.com",
         "root": ""
     }
     url = "https://panel.op-net.com/cloud/open"
