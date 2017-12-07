@@ -41,12 +41,12 @@ headers = {
 
 
 def get_email():
-    your_email = input('请输入邮箱: \n')
+    your_email = "your@email"
     return your_email
 
 
 def get_password():
-    your_password = input('请输入密码: \n')
+    your_password = "your@password"
     return your_password
 
 
