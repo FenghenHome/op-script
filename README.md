@@ -56,12 +56,23 @@ apt install python3-pip
 apt install python3-lxml
 ```
 
-### 3. 开动了
+### 3. 修改邮箱和密码
+
+```修改OneProvider.py，your@email为登录邮箱，your@password为登录密码```
+
+### 4. 开动了
 
 ```shell
-python OneProvider.py
+nohup python -u OneProvider.py > OneProvider.out 2>&1 &
 ```
 
 > Have fun and enjoy it!
 
 > PS. 详细日志见 op.log
+
+### 5. 查看状态
+
+```shell
+tail -f OneProvider.out
+```
+
