@@ -115,7 +115,7 @@ def re_create(csrf_token, vm_id, flag):
         "vm_id": vm_id,
         "location": 13,
         "os": "linux-ubuntu-14.04-server-x86_64-min-gen2-v1",
-        "hostname": "ifenghen.com",
+        "hostname": "cloudflare.com",
         "root": ""
     }
     url = "https://panel.op-net.com/cloud/open"
